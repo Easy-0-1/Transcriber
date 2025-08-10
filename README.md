@@ -55,7 +55,8 @@ python head.py
 2. `whisper\\assets`有关文件导入错误：需将 `site-packages\\whisper\\assets` 显式添加到 `.spec` 文件的 `datas` 列表；  
 3. `load_model()` 本地加载报错，说torch.__version__ >= "1.13"时"weights_only":打开 `whisper\__init__.py`，将第150行 `{"weights_only": True}` 改为 `{"weights_only": False}`（VSCode中按住CTRL点击函数可快速访问）；  
 4. 加密文件内存过载：减少分块大小和工作组规模；  
-5. `fff`/`wordcloud` 等边报错边运行：有正确结果即可，详见代码注释。  
+5. `fff`/`wordcloud` 等边报错边运行：有正确结果即可，详见代码注释。
+6. 未按`确认`中途退出，可有错误弹窗，直接关闭即可，不影响程序正常使用。
 
 
 ## 三、使用提示【重要】  
