@@ -1,0 +1,91 @@
+1.Copyright (c) 2025 Easy
+本项目原始代码遵循 木兰宽松许可证，第2版 许可，网址http://license.coscl.org.cn/MulanPSL2
+2.对于应用界面使用的图片，作出如下说明：
+图片取自以下网址：
+ico
+https://www.iconfont.cn/illustrations/detail?spm=a313x.home_2025.i1.68.58a33a81asl2Cd&cid=52520
+创建者：松子；协作者：朔漠
+遵循iconfont平台用户服务协议（2022年7月26日公布)，网址：https://terms.alicdn.com/legal-agreement/terms/platform_service/20220704165734807/20220704165734807.html?spm=a313x.register.i1.3.1ecf3a81TT3Q79
+左侧边栏 
+https://unsplash.com/photos/background-pattern-RRP8OPybug8?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+Photo by Diego Carneiro on Unsplash
+右下网格
+https://unsplash.com/photos/various-colorful-shells-are-illustrated-on-white--XxFywc75xU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash   
+Photo by The New York Public Library on Unsplash
+右下网格
+https://unsplash.com/photos/various-seashells-are-illustrated-in-this-image-m7f8u-nfs40?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash
+Photo by The New York Public Library on Unsplash
+splash
+https://unsplash.com/photos/white-cloud-formations-_UCVrH-ZIIg
+Photo by Davies Designs Studio on Unsplash
+右上图片
+https://unsplash.com/photos/a-white-and-pink-background-with-a-curved-corner-WG56pNhliUQ
+Photo by Maxim Berg on Unsplash
+上述图片均来自 Unsplash，遵循Unsplash协议，网址：https://unsplash.com/license
+3.对于图片转文字模型，采用开源项目paddleOCR，网址：https://github.com/PaddlePaddle/PaddleOCR，版权归PaddlePaddle Authors所有，遵守 Apache License 2.0 协议。其中PaddleOCR 是百度在线网络技术（北京）有限公司的注册商标。
+4.对于声音转文字模型，采用开源项目whisper,网址：https://github.com/openai/whisper，版权归OpenAI 团队所有，遵守MIT License 协议。其中Whisper 是OpenAI 商标。
+5.对于视频处理，采用开源项目ffmpeg，网址https://ffmpeg.org/，版权归 FFmpeg 开发者社区所有，遵守 GNU Lesser General Public License v2.1（LGPLv2.1）或 GNU General Public License v2（GPLv2）许可证，具体条款见：https://ffmpeg.org/legal.html。其中 FFmpeg 是项目创始人 Fabrice Bellard 的商标。
+6.本项目使用的第三方库通过pip安装，详见下：
+(1)pyecharts==1.8.1：
+版权归属人：pyecharts 开源项目团队。
+许可证：MIT 许可证。
+(2)jieba==0.42.1：
+版权归属人：jieba 开源项目团队。
+许可证：MIT 许可证。
+(3)pywin32==310：
+版权归属人：Python 软件基金会。
+许可证：Python 软件基金会许可证（PSF）。
+(4)pywin32-ctypes==0.2.3：
+版权归属人：pywin32-ctypes 开源项目团队。
+许可证：BSD-3-Clause 许可证。
+(5)pillow==11.2.1：
+版权归属人：Pillow 开源项目团队。
+许可证：MIT-CMU 许可证。
+(6)PyMuPDF==1.26.3：
+版权归属人：Artifex Software, Inc.
+许可证：双重许可，GNU Affero GPL 3.0 或 Artifex 商业许可证。
+(7)opencv-python==4.11.0.86：
+版权归属人：OpenCV 团队。
+许可证：BSD 许可证。
+(8)numpy==2.2.5：
+版权归属人：numpy 开发者。
+许可证：BSD 风格许可证。
+(9)asttokens==3.0.0：
+版权归属人：asttokens 开源项目团队。
+许可证：Apache 2.0 许可证。
+(10)PyQt6==6.9.0：
+版权归属人：Riverbank Computing Limited。
+许可证：GPL v3 许可证、商业许可证。
+(11)PyQt6-Qt6==6.9.0：
+版权归属人：Qt Company Ltd. 等相关开发者。
+许可证：Qt 本身有多种许可方式，包括商业许可证等，如果是基于开源协议使用，通常遵循 GPL 相关条款。
+(12)PyQt6_sip==13.10.0：
+版权归属人：sip 开源项目团队。
+许可证：BSD-2-Clause 许可证。
+(13)qt - material==2.14：
+版权归属人：qt - material 开源项目团队。
+许可证：BSD-2-Clause 许可证。
+(14)simplejson==3.20.1：
+版权归属人：simplejson 开源项目团队。
+许可证：遵循 MIT 和 Academic Free License（AFL）许可协议。
+(15)pyopencl==2025.2.5：
+版权归属人：pyopencl 开源项目团队。
+许可证：MIT 许可证。
+其中OpenCL 商标由非盈利性技术组织 Khronos Group 掌管。
+(16)ffmpeg - python==0.2.0：
+版权归属人：ffmpeg - python 开源项目团队。
+许可证：Apache 软件许可证。
+其中FFmpeg 是 Fabrice Bellard 的商标，属于FFmpeg.org。
+(17)openai - whisper==20250625：
+版权归属人：OpenAI OpCo, LLC。
+许可证：MIT 许可证。
+其中Whisper 商标归 OpenAI OpCo, LLC 所有。
+(18)Cython==3.0.12：
+版权归属人：Cython 开源项目团队。
+许可证：Apache 软件许可证。
+(19)setuptools==80.9.0：
+版权归属人：setuptools 开源项目团队。
+许可证：MIT 许可证。
+(20)whisper==1.1.10：
+版权归属人：OpenAI OpCo, LLC。
+许可证：Apache  软件许可证。
