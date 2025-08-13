@@ -1,0 +1,4 @@
+在当前文件夹开命令窗，复制粘贴下述命令。
+第一个是编译为pyd,先把待编译.py文件后缀直接改为.pyx;二是打包为exe，分别需cython和pyinstaller模块。
+python setup.py build_ext --inplace
+pyinstaller myapp.spec
